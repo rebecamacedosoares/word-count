@@ -1,0 +1,31 @@
+body{
+    background-color: #3b3b3b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+h1{
+    color: rgb(67, 80, 195);
+    font-weight: bold;
+}
+
+#container{
+    background-color: rgb(195, 227, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    border-radius: 8px;
+    box-shadow: 7px 7px rgb(67, 80, 195);
+}
+
+button{
+    margin: 10px;
+    color: rgb(67, 80, 195);
+    font-weight: bold;
+    border: 1px solid rgb(67, 80, 195);
+    border-radius: 4px;
+}
